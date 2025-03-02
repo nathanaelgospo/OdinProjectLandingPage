@@ -1,0 +1,212 @@
+/* Import Roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+
+}
+.allContainers {
+    display: flex;
+    flex-direction: column;
+    border:0px;
+    margin:0px
+}
+
+.allContainers{
+    background-color: #1f2937;
+}
+.container1 {
+    background-color: #1f2937;
+    width: 100vw; /* Full viewport width */
+   
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+}
+
+
+.headers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-right: 3.5cm;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.headerLogo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-left: 4cm;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container1Content {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 100px;
+    margin-top: 2cm;
+    margin-left: 4cm;
+    margin-bottom: 2cm;
+    margin-right:4cm;
+    flex: 1 1 0%;
+    
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#headerMain{
+    margin-bottom:0cm;
+    font-size:  48px;
+    color: #f9fAF8;
+}
+#headerMainText{
+    margin-top:.25cm;
+    font-size: 18px;
+    color: #e5e7eb;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#headerMainButton {
+    background-color: #3882F6;
+    border-radius: 5px;
+    width: 125px; /* Reduced width */
+    height: 50px; /* Added height */
+    padding: 10px 15px; /* Corrected padding format and adjusted */
+    border: 0px;
+    font-family: 'Roboto', sans-serif;
+    color: #e5e7eb;
+    font-size: 18px; /* Optional: Adjust font size for larger text */
+}
+
+.container2 {
+    background-color: #ffffff;
+    width: 100%; /* Avoids scrollbar issue */
+    padding-bottom: 1px;
+}
+
+#container2Header{
+    margin-top: 1cm;
+    text-align: center;
+}
+.container2Content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-top: 2cm;
+    margin-right:6cm;
+    margin-left: 6cm;
+    border-radius: 2cm;
+    
+}.item1, .item2, .item3, .item4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Centers text inside the box */
+    box-sizing: border-box; /* Ensures padding is included in the width */
+    overflow: hidden; /* Ensures no content spills out */
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.textImage{
+    width: 150px;   
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin-bottom:2cm;
+}
+
+
+img {
+    border: 8px solid #3882F6;
+    border-radius: 5px;
+}
+
+.container3 {
+    display: flex; /* Make it a flex container */
+    flex-direction: column;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    background-color: #e5e7eb;
+    height: 300px; /* Ensure it has enough height for centering */
+    text-align: center;
+    
+    
+}
+#quote{
+    margin-top: 2cm;
+    font-style: italic;
+    font-size: 36px;
+    text-align: center;
+    width: 571px;
+}
+
+#author{
+    margin-bottom: 2cm;
+}
+
+.container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff; /* White background */
+    padding: 50px 0; /* Add vertical padding to create spacing */
+}
+
+.container4Content {
+    display: flex;
+    flex-direction: row; /* Stack items vertically */
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6; /* Blue rectangle background */
+    border-radius: 10px;
+    width: 600px; /* Rectangle width */
+    padding: 20px; /* Space inside the rectangle */
+    gap: 100px; /* Space between items */
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+#button2 {
+    background-color: #3882F6;
+    border-radius: 5px;
+    width: 125px; /* Reduced width */
+    height: 50px; /* Added height */
+    padding: 10px 15px; /* Corrected padding format and adjusted */
+    border: 2px solid #ffffff; /* White border */
+    color: #e5e7eb;
+    font-size: 18px;
+    font-style: bold;
+}
+
+.container5{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+}
+
+
